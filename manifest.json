@@ -1,0 +1,57 @@
+{
+    "manifest_version": 3,
+    "name": "Optimized Version",
+    "description": "This Simplest Basecamp Extension to keep your work synced with Moon InOut",
+    "version": "1.8",
+    "web_accessible_resources": [
+        {
+            "resources": [
+                "images/*",
+                "fonts/*",
+                "popup/*"
+            ],
+            "matches": [
+                "<all_urls>"
+            ]
+        }
+    ],
+    "action": {
+        "default_title": "BC-Extension"
+    },
+    "permissions": [],
+    "host_permissions": [
+        "https://3.basecamp.com/*",
+        "https://launchpad.37signals.com/*",
+        "http://*/*",
+        "https://*/*"
+    ],
+    "content_scripts": [
+        {
+            "js": [
+                "JS/jquery.js",
+                "JS/all.min.js",
+                "Helper/Overlay.js",
+                "APIS/moon_request_master.js",
+                "APIS/ApiRequest.js",
+                "APIS/apiCall.js",
+                "Auth/Design.js",
+                "Auth/Login.js",
+                "Auth/SignUp/SignUp.js",
+                "Auth/SignUp/SignUpModalDesign.js"
+            ],
+            "css": [
+                "Styles/basecamp.css",
+                "Styles/index.css",
+                "Styles/dark.css",
+                "Auth/Styles/Login.css",
+                "Auth/Styles/LoginOptions.css",
+                "Auth/Styles/LoginModal.css",
+                "Auth/SignUp/SignUpStyle.css"
+            ],
+            "matches": [
+                "*://*.basecamp.com/*"
+            ],
+            "all_frames": true
+        }
+    ]
+}

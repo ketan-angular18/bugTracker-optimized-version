@@ -1,0 +1,32 @@
+@import url('./LoginOptions.css');
+
+@import url('./LoginPopup.css');
+
+
+/* Login && SignUp Button */
+.login-btn button,
+.signup-btn button {
+    display: inline-block;
+    font-weight: 500;
+    text-align: center;
+    white-space: nowrap;
+    vertical-align: middle;
+    user-select: none;
+    font-size: 15px;
+    line-height: 17.9px;
+    box-shadow: 2px 8px 10px 0px #0000001a;
+    background: #54a368;
+    color: #fff;
+    cursor: pointer;
+    border-width: 1px;
+    border-style: solid;
+    border-image: initial;
+    border-radius: 4px;
+    transition: all 0.5s ease;
+    border-color: #2da562;
+    margin: 8px 10px 4px;
+    align-items: center;
+    height: 30px;
+    width: 69px;
+    padding: 0 10px;
+}

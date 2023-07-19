@@ -1,0 +1,28 @@
+@media (prefers-color-scheme: dark) {
+    .cancel_icon {
+        position: absolute;
+        right: 21px;
+        top: 25px;
+        margin-top: -5px;
+        right: 10px;
+        cursor: pointer;
+        background: url("chrome-extension://__MSG_@@extension_id__/images/close-white.svg");
+        height: 24px;
+        width: 24px;
+    }
+
+    .login-form-wrap input {
+        background-color: var(--color-bg--surface) !important;
+        /* color: white !important; */
+    }
+
+    .login-form-wrap label {
+        background-color: var(--color-bg--surface) !important;
+        /* color: white !important; */
+    }
+
+    .flot-label {
+        color: white !important;
+    }
+
+}

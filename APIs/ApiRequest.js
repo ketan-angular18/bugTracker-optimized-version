@@ -1,0 +1,4 @@
+window.request = {
+  Login: '/login',
+  
+}

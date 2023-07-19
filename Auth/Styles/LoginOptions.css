@@ -1,0 +1,41 @@
+/* Login Options UI */
+#login_options {
+    display: none;
+    position: fixed;
+    background: white;
+    padding: 13px 20px;
+    line-height: 40px;
+    right: 3%;
+    top: 44px;
+    border-radius: 12px;
+    box-shadow: 0 -1px 15px var(--color-shadow-warm),
+        0 1px 2px var(--color-shadow-warm),
+        0 1px 3px var(--color-shadow-warm),
+        0 10px 9px -4px var(--color-shadow-warm),
+        0 22px 13px -18px var(--color-shadow-warm);
+}
+
+#login_options div {
+    cursor: pointer;
+}
+
+#login_options div:hover {
+    opacity: 0.5;
+}
+
+#login_options::after {
+    content: ' ';
+    position: absolute;
+    left: 75%;
+    top: -26px;
+    width: 0;
+    height: 0;
+    margin-left: -9px;
+    border: 14px solid var(--color-trans-surface);
+    border-bottom-color: var(--color-bg--surface);
+    z-index: 5;
+}
+
+#login_options {
+    background: var(--color-bg--surface) !important;
+}

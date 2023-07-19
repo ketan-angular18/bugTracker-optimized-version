@@ -1,0 +1,155 @@
+/* Login Modal CSS */
+#login_popup .login-form-wrap {
+    position: relative;
+    display: flex;
+    flex-direction: column-reverse;
+    align-items: start;
+    margin-top: 25px;
+}
+
+#login_popup .cancel_icon {
+    top: 20px !important;
+}
+
+.login-modal-box.modal-md {
+    max-width: 600px;
+}
+
+.login-modal-box {
+    height: auto;
+    width: 455px;
+    border-radius: 10px;
+    z-index: 10;
+    left: 40%;
+    top: 40%;
+    position: fixed;
+}
+
+.login-modal-box .login-modal-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0.25em 1.5em;
+    border-bottom: 1px solid rgb(221, 221, 221);
+}
+
+.login-modal-box .overlay-modal {
+    opacity: 1;
+    pointer-events: all;
+}
+
+/* Login Body */
+
+.login-modal-body {
+    background-color: var(--color-bg--surface) !important;
+}
+
+.login-modal-body {
+    height: auto;
+    width: 455px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 20px 0px #00000026;
+    background: #ffffff;
+}
+
+.login-modal-body .otp-ver {
+    margin: 7% 0%;
+}
+
+#loginTitle {
+    display: flex;
+    justify-content: center;
+    font-size: 19px;
+    padding-top: 13px;
+    font-family: inherit;
+    font-weight: 600;
+    margin: 0px 0px 3px 2px;
+    margin-bottom: -15px;
+}
+
+.cancel_icon svg {
+    color: rgb(40, 60, 70);
+}
+
+.login-form-wrap {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    margin-top: 25px;
+    padding: 7px 19px;
+}
+
+.login-form-wrap h4 {
+    margin: 0px;
+    font-weight: 500;
+}
+
+.login-form-wrap input {
+    background-color: rgb(255, 255, 255);
+    background-clip: padding-box;
+    min-height: 45px;
+    margin: 0px;
+    padding: 0.5rem;
+    border: 1px solid rgb(175, 175, 175);
+    outline: none;
+    border-radius: 4px;
+    width: 388px;
+}
+
+.login-form-wrap label.flot-label {
+    font-size: 14px;
+    line-height: 14px;
+    color: rgba(0, 0, 0, 0.5);
+    margin-bottom: -11px;
+    position: relative;
+    background: #fff;
+    display: inline-block;
+    width: auto;
+    margin-left: 8px;
+    padding: 3px;
+}
+
+.login-form-wrap+.login-form-wrap {
+    margin-left: 20px;
+}
+
+.login-form-wrap input#create_project {
+    padding: 0 10px !important;
+}
+
+.login-form-sendEmail button {
+    display: inline-block;
+    font-weight: 400;
+    text-align: center;
+    white-space: nowrap;
+    vertical-align: middle;
+    user-select: none;
+    font-size: 16px;
+    line-height: 22px;
+    background-color: rgb(45, 165, 98);
+    color: rgb(255, 255, 255);
+    cursor: pointer;
+    border: 1px solid rgb(45, 165, 98);
+    padding: 7px 20px;
+    border-radius: 4px;
+    transition: all 0.5s ease 0s;
+    margin-top: 9px;
+    margin-bottom: 30px;
+    width: 388px;
+    opacity: 1;
+}
+
+.login-form-sendEmail button:focus {
+    opacity: 0.7;
+    background-color: rgb(3, 99, 67);
+    border-color: rgb(3, 99, 67);
+}
+
+.login-modal-d-flex {
+    height: 154px;
+    flex-direction: column;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

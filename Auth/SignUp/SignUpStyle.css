@@ -1,0 +1,222 @@
+.main-modal {
+    font-family: 'SF UI Text', sans-serif !important;
+    color: #2B3A45;
+    width: 100%;
+    max-width: 704px;
+    padding: 20px;
+    border-radius: 10px;
+    background: #FFF;
+    box-shadow: 0px 0px 20px 0px rgba(0, 0, 0, 0.15);
+    display: none;
+    top: 10%;
+    left: 0;
+    position: fixed;
+    z-index: 1000;
+    max-width: 868px;
+    margin: 0 auto !important;
+    background-clip: padding-box;
+    right: 0;
+}
+
+.signup-heading {
+    position: relative !important;
+}
+
+.signup-heading h2 {
+    text-align: center;
+    font-size: 34px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    margin: 0;
+
+}
+
+.signup-heading .close-singup {
+    position: absolute;
+    right: 0px;
+    top: 9px;
+    cursor: pointer;
+}
+
+.main-card {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    padding: 20px 0px;
+}
+
+.hrm-card {
+    max-width: 404px;
+    flex-shrink: 0;
+    border-radius: 10px;
+    border: 1px solid #E0E0E0;
+}
+
+.mr-20 {
+    margin-right: 20px;
+}
+
+.hrm-logo {
+    /* max-height: 40px; */
+    padding: 25px 0px;
+    text-align: center;
+    border-bottom: 1px solid #E0E0E0;
+}
+
+.hrm-logo img {
+    height: 40px;
+}
+
+.list {
+    padding: 20px 15px;
+}
+
+.list ul {
+    padding: 0;
+}
+
+.list ul li {
+    list-style: none;
+    padding-left: 25px;
+    position: relative;
+    padding-bottom: 15px;
+}
+
+.list ul li::before {
+    content: '';
+    background-image: url(chrome-extension://__MSG_@@extension_id__/images/svg/icon.svg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    position: absolute;
+    z-index: 2;
+    top: 3px !important;
+    left: 0;
+    width: 15px;
+    height: 15px;
+}
+
+.signup-btn-nav {
+    width: 100%;
+    padding: 10px 0px;
+    border-radius: 4px;
+    background: #54A368;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    border: none;
+    color: #FFF;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: normal;
+}
+
+.list p {
+    font-size: 14px;
+    text-align: center;
+    margin: 0;
+    padding-top: 15px;
+}
+
+.list a {
+    color: #54A368;
+    font-size: 14px;
+    font-weight: 600;
+    padding-left: 3px;
+    text-decoration: none;
+}
+
+.signup-overlink {
+    display: none;
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(0, 0, 0, 0.5) !important;
+    z-index: 8;
+    cursor: pointer;
+}
+
+.mi.hrm-logo {
+    padding: 20px 0px !important;
+}
+
+.signup-par {
+    text-align: center;
+    padding: 0px 6.5rem;
+    color: #2B3A45;
+    font-size: 16px;
+    font-weight: 400;
+}
+
+ul.mi-list {
+    margin-bottom: 5rem;
+}
+
+@media screen and (max-width:1400px) {
+    .main-modal {
+        top: 35px;
+    }
+
+    .main-card {
+        padding: 13px 0px 0px 0px;
+    }
+
+    .hrm-logo {
+        padding: 15px 0px;
+    }
+
+    .mi.hrm-logo {
+        padding: 10px 0px !important;
+    }
+
+    .mi-list {
+        font-size: 14px;
+        margin-bottom: 44px !important;
+    }
+
+    .list ul {
+        font-size: 14px;
+    }
+
+    .signup-heading h2 {
+        font-size: 28px;
+    }
+
+    .signup-heading p {
+        font-size: 13px;
+    }
+
+    .mi-listing {
+        padding: 17px 15px 19px 15px !important;
+    }
+}
+
+.signup-btn .signup-btn-combo {
+    border: 1px solid #C2C2C2;
+    width: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 3px 10px;
+    margin-bottom: 5px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.signup-btn-combo-title {
+    padding: 6px 13px 6px 0px;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 0px;
+    opacity: 0.8;
+}
+
+a.signup-btn {
+    margin-top: 8px;
+    margin-left: -8px;
+}
